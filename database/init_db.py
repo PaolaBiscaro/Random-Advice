@@ -10,5 +10,6 @@ def create_table():
             phrase TEXT NOT NULL
         )           
     ''')
+    
     conn.commit()
     conn.close()
